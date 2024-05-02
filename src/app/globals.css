@@ -1,33 +1,64 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* laptop/ large device
+=============================== */
+/* main heading - 5xl  */
+/* tab/ mid device
+=============================== */
+/* main heading - 4xl */
+/* mobile
+=============================== */
+/* main heading - 3xl */
+
+/* them color 1: green-500   heading button*/
+/* them color 2: gray-200    background */
+/* them color 2: sky-950     hover, nav, footer */
+
+
+
+
+
+/* different pages css/ */
+/* home page video background / */
+.ho_pa_bg_video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+/* itSolutions - page// */
+.heading_container{
+    position: relative;
+}
+.heading_under_style::after{
+position: absolute;
+content: "";
+width: 150px;
+height: 8px;
+background-color: #22c55e;
+left: 0;
+top: 60px;
+}
+.heading_under_style::before{
+position: absolute;
+content: "";
+width: 150px;
+height: 2px;
+background-color: #fff;
+left: 150px;
+top: 66px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.bg-svg{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 0;
 }
