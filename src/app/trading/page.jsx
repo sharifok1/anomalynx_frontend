@@ -101,7 +101,7 @@ const Page = () => {
                 </div>
 
                 {/* =============heading=============== */}
-                <div className='py-8 md:py-20 px-10 md:px-20 flex flex-col md:flex-row '>
+                <div className='py-8 md:py-20 px-4 md:px-20 flex flex-col md:flex-row '>
                     <Image className='w-full md:w-1/3 h-auto rounded-xl shadow md:p-4' src={tradingIntro} alt='about' />
                     <div className='md:p-4'>
                         <h1 className='py-4 pt-10 text-2xl text-green-500 font-semibold mb-2'>Take one miniute please!!</h1>
@@ -130,10 +130,10 @@ const Page = () => {
                 <div className="flex flex-wrap px-10 md:px-20">
                     <div className="w-full">
                         <ul
-                            className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
+                            className=" gap-1 flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
                             role="tablist"
                         >
-                            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center my-2 ">
+                            <li className="last:mr-0 flex-auto text-center my-2 ">
                                 <a
                                     className={
                                         "text-sm font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
@@ -153,7 +153,7 @@ const Page = () => {
                                     Cashew Nuts
                                 </a>
                             </li>
-                            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center my-2">
+                            <li className="last:mr-0 flex-auto text-center my-2">
                                 <a
                                     className={
                                         "text-sm font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
@@ -173,7 +173,7 @@ const Page = () => {
                                     {/* <i className="fas fa-cog text-base mr-1"></i>  */}
                                 </a>
                             </li>
-                            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center my-2">
+                            <li className="last:mr-0 flex-auto text-center my-2">
                                 <a
                                     className={
                                         "text-sm font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
@@ -194,7 +194,7 @@ const Page = () => {
                                 </a>
                             </li>
 
-                            <li className="-mb-px mr-2 last:mr-0 flex-auto text-center my-2">
+                            <li className="last:mr-0 flex-auto text-center my-2">
                                 <a
                                     className={
                                         "text-sm font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +

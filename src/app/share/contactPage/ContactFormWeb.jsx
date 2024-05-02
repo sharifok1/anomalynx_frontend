@@ -7,14 +7,14 @@ const ContactFormWeb = () => {
                 <h1 className='text-3xl lg:text-5xl font-bold md:text-4xl text-center text-green-500 pt-20 '>
                     Submit Your Project Details
                 </h1>
-                <p className='mt-2 md:mt-4 text-white text-center'>
+                <p className='px-4 mt-2 md:mt-4 text-white text-center'>
                     We are available for custom development projects. <br /> Fill out this form to tell us about your project and get a personalized quote.
                 </p>
             </div>
             <div className="max-w-screen-lg mx-auto p-5">
-                <div className="grid grid-cols-1">
+                <div>
 
-                    <form className="md:col-span-8 p-10">
+                    <form className="md:p-10">
                         {/* ============================Name & phone number========// */}
                         <div className="flex flex-wrap -mx-3 mb-2">
                             <div className="w-full md:w-1/2 px-3 mb-2 md:mb-0">

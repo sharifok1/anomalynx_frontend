@@ -9,7 +9,7 @@ const page = () => {
         <>
             <Nav/>
             <div className='bg-gray-200'>
-            <div className='relative z-10 mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 pt-10 md:pt-20 py-20'>
+            <div className='relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10 md:pt-20 py-20'>
                
                 {/* heading/// */}
                 <section>
